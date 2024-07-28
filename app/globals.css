@@ -32,9 +32,31 @@ body {
   }
 }
 
-.dinosaur-image-1{
-  width: 45px;
+@keyframes dino {
+  from { background-position: -846px 0;}
+  to {background-position: -1110px 0;}
+}
+
+@keyframes ground{
+  from {background-position: 1000px 50px;}
+  to {background-position: -300px 50px;}
+}
+
+.dino-ground{
+width: calc(100%-200px);  
+height: 20px;
+  overflow: hidden;
+  background: url(/img/dinosaur.jpeg) -200px 50px;
+  animation: ground 4s steps(20) infinite;
+}
+
+.dinosaur-image{
+  width: 47px;
+  height: 50px;
   background: url(/img/dinosaur.jpeg) -845px 0px;
+  background-repeat: no-repeat;
+  animation: dino 1s steps(6) infinite;
+  overflow: hidden;
 }
 
 .dinosaur-image-2{

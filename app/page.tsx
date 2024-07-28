@@ -2,10 +2,8 @@ import Dinosaur from "./components/dinosaur";
 
 export default function Home() {
   return (
-    <div className="h-screen w-screen">
-      <div className="border border-1">
+    <div className="h-screen w-screen flex flex-col justify-start items-start">
         <Dinosaur></Dinosaur>
-      </div>
     </div>
   );
 }
