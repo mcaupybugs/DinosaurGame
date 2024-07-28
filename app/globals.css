@@ -10,9 +10,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 255, 255, 255;
+    --background-end-rgb: 255, 255, 255;
   }
 }
 
@@ -30,4 +30,19 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.dinosaur-image-1{
+  width: 45px;
+  background: url(/img/dinosaur.jpeg) -845px 0px;
+}
+
+.dinosaur-image-2{
+  width: 45px;
+  background: url(/img/dinosaur.jpeg) -890px 0px;
+}
+
+.dinosaur-image-3{
+  width: 45px;
+  background: url(/img/dinosaur.jpeg) -935px 0px;
 }
